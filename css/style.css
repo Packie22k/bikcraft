@@ -5,7 +5,10 @@
 @import"./global.css/header.css";
 @import"./home/introducao.css";
 @import"./utilidades/componentes.css";
-@import"./bicicletas/bicicletas-lista.css";
 @import"./home/tecnologia.css";
 @import"./home/parceiros.css";
 @import"./home/depoimento.css";
+
+@import"./bicicletas/bicicletas-lista.css";
+@import"./seguros/seguros.css";
+@import"./global.css/footer.css";
