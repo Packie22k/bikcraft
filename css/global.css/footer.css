@@ -46,8 +46,21 @@
   grid-column: 1/-1;
 }
 
-/* @media(max-width: 800px) {
-  .footer{
-    grid-template-columns: 1fr auto;
+@media (max-width: 800px) {
+  .footer > img {
+    display: none;
   }
-} */
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    gap: 60px;
+    grid-template-columns: 1fr;
+  }
+  .footer-copy{
+    margin-top: 0px;
+  }
+}
